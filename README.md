@@ -1,6 +1,8 @@
-This project is to learn how to build a full stack application using Spring Boot with a React frontend. The project is a Kanban board which will help manage issues and tasks.
+### Intro
 
+This project is to learn how to build a full stack application using Spring Boot for the backend with a React frontend and integrating with MySQL for the database -- eventually it'll be hosted on Heroku. The project is a Kanban board which will help manage issues and tasks.
 
+### Notes
 To use the local H2 database: `localhost:8080/h2-console`
 
 1) If the following error occurs when trying to access the H2 database
