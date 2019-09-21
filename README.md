@@ -19,3 +19,6 @@ The specific step is to modify the `application.properties` file located in `/sr
  spring.datasource.password=
  spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
  spring.h2.console.path=/h2-console`
+ 
+ 
+2. When using `Postman` to post to the `api/project` if a `4xx` error is returned instead of a `201` make sure the project package structure is setup correctly i.e. `services` and `web` packages should be under the `java\com.example.xxx`
